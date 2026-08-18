@@ -1,8 +1,6 @@
 # Office Cleaning Services Agreement
 
-**Template — requires legal review before use.**
-
----
+**Template: requires legal review before use.**
 
 **This Office Cleaning Services Agreement** ("Agreement") is entered into as of ______________ ("Effective Date"), by and between:
 
@@ -27,9 +25,9 @@ Client provides after-hours access instructions and identifies any restricted ar
 ## 4. Fees & Payment
 
 - Monthly fee: ______________ (see Schedule B).
-- Payment method: ☐ cash ☐ card ☐ Celo stablecoin via FreClean's Web3 payment system (CeloHT).
+- Payment method: ☐ cash ☐ card ☐ USDm via FreClean's Web3 payment system (CeloHT).
 - Invoices issued monthly, due within 15 days.
-- A payment-compliance record for this Agreement may be kept in FreClean's on-chain agreement registry (`freclean-contracts`) — record-keeping only, not a change to either party's obligations.
+- A payment-compliance record for this Agreement may be kept in FreClean's on-chain agreement registry (`freclean-contracts`). This is record-keeping only and not a change to either party's obligations.
 
 ## 5. Quality Standards
 
@@ -41,7 +39,7 @@ Service Provider's staff will not access confidential documents, computer system
 
 ## 7. Insurance & Liability
 
-Each party's liability is limited to direct damages; neither party is liable for indirect or consequential damages, except for confidentiality breaches or willful misconduct. *(Insurance details: not provided as a default — confirm actual coverage before use.)*
+Each party's liability is limited to direct damages; neither party is liable for indirect or consequential damages, except for confidentiality breaches or willful misconduct. *(Insurance details: not provided as a default; confirm actual coverage before use.)*
 
 ## 8. Termination
 
@@ -55,9 +53,7 @@ Each party keeps the other's non-public business information confidential.
 ## 10. General
 
 - Entire agreement, amendments in writing, no assignment without consent (except to a successor in a merger/acquisition).
-- Governing law: ______________________________ *(not provided — to be finalized with counsel).*
-
----
+- Governing law: ______________________________ *(not provided; to be finalized with counsel).*
 
 **Signatures**
 
@@ -65,8 +61,6 @@ FreClean: _______________________  Date: __________
 
 Client: _______________________  Date: __________
 
----
+**Schedule A: Cleaning Schedule** *(to be completed)*
 
-**Schedule A — Cleaning Schedule:** *(to be completed)*
-
-**Schedule B — Fees:** *(to be completed)*
+**Schedule B: Fees** *(to be completed)*

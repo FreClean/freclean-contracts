@@ -6,8 +6,8 @@
   "scripts": {
     "test": "hardhat test",
     "compile": "hardhat compile",
-    "deploy:alfajores": "hardhat run scripts/deploy.js --network celoAlfajores",
-    "gen:contracts-docx": "node scripts/generate-contract-docs.js"
+    "deploy:alfajores": "hardhat run deploy.js --network celoAlfajores",
+    "gen:contracts-docx": "node generate-contract-docs.js"
   },
   "devDependencies": {
     "@nomicfoundation/hardhat-toolbox": "^5.0.0",

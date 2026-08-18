@@ -1,8 +1,6 @@
 # Hotel Cleaning Services Agreement
 
-**Template — requires legal review before use.** This is a working draft, consistent with FreClean's realism principle: it is not represented as final legal text until reviewed by counsel.
-
----
+**Template: requires legal review before use.** This is a working draft, consistent with FreClean's realism principle: it is not represented as final legal text until reviewed by counsel.
 
 **This Hotel Cleaning Services Agreement** ("Agreement") is entered into as of ______________ ("Effective Date"), by and between:
 
@@ -29,9 +27,9 @@ Room and common-area volume, frequency, and staffing levels are set out in **Sch
 ## 4. Fees & Payment
 
 - Fees are set out in **Schedule B**.
-- Client may pay by: cash, international card, or a supported Celo stablecoin via FreClean's Web3 payment system (CeloHT) — see FreClean's payment policy for current status of each method.
+- Client may pay by: cash, international card, or USDm via FreClean's Web3 payment system (CeloHT). See FreClean's payment policy for the current status of each method.
 - Invoices are issued **☐ monthly ☐ quarterly** and due within 15 days of issuance.
-- A payment record for this Agreement, and confirmation of each payment, may be recorded in FreClean's `freclean-contracts` agreement registry on the Celo network — this is a record-keeping measure only and does not change either party's payment obligations under this Agreement.
+- A payment record for this Agreement, and confirmation of each payment, may be recorded in FreClean's `freclean-contracts` agreement registry on the Celo network. This is a record-keeping measure only and does not change either party's payment obligations under this Agreement.
 
 ## 5. Quality Standards
 
@@ -43,7 +41,7 @@ Service Provider is responsible for hiring, training, and supervising its own cl
 
 ## 7. Insurance & Liability
 
-- Service Provider maintains ☐ general liability ☐ other: ______________ insurance, evidence of which is available on request. *(Confirm actual coverage before use — not provided as a default here.)*
+- Service Provider maintains ☐ general liability ☐ other: ______________ insurance, evidence of which is available on request. *(Confirm actual coverage before use; not provided as a default here.)*
 - Each party's liability to the other under this Agreement is limited to direct damages; neither party is liable for indirect, incidental, or consequential damages, except for breaches of confidentiality (Section 10) or willful misconduct.
 
 ## 8. Termination
@@ -54,7 +52,7 @@ Service Provider is responsible for hiring, training, and supervising its own cl
 
 ## 9. Dispute Resolution
 
-The parties will attempt to resolve any dispute through good-faith discussion between designated representatives before pursuing formal action. *(Arbitration/litigation venue and governing law: not provided — to be finalized with counsel.)*
+The parties will attempt to resolve any dispute through good-faith discussion between designated representatives before pursuing formal action. *(Arbitration/litigation venue and governing law: not provided; to be finalized with counsel.)*
 
 ## 10. Confidentiality
 
@@ -69,9 +67,7 @@ Neither party is liable for a failure to perform caused by events beyond its rea
 - This Agreement, with its Schedules, is the entire agreement between the parties on this subject.
 - Amendments must be in writing and signed by both parties.
 - Neither party may assign this Agreement without the other's written consent, except to a successor in a merger or acquisition.
-- Governing law: ______________________________ *(not provided — to be finalized with counsel).*
-
----
+- Governing law: ______________________________ *(not provided; to be finalized with counsel).*
 
 **Signatures**
 
@@ -81,8 +77,6 @@ Name/Title: _______________________
 Client: _______________________  Date: __________
 Name/Title: _______________________
 
----
+**Schedule A: Volume & Frequency** *(to be completed per property)*
 
-**Schedule A — Volume & Frequency:** *(to be completed per property)*
-
-**Schedule B — Fees:** *(to be completed per property — not provided as a default rate here; see FreClean's pricing guidance)*
+**Schedule B: Fees** *(to be completed per property; not provided as a default rate here; see FreClean's pricing guidance)*

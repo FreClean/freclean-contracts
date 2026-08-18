@@ -1,8 +1,8 @@
 /**
  * Converts each markdown file in legal-templates/ into a polished .docx in
- * dist/. A small, purpose-built parser (not a general markdown converter) —
- * these four source files share one predictable structure, so this stays
- * simple rather than pulling in a heavier markdown-to-docx dependency.
+ * dist/. A small, purpose-built parser (not a general markdown converter)
+ * handles these four source files, which share one predictable structure, so
+ * this stays simple rather than pulling in a heavier markdown-to-docx dependency.
  */
 const fs = require("fs");
 const path = require("path");
@@ -21,8 +21,8 @@ const {
   TabStopPosition,
 } = require("docx");
 
-const SRC_DIR = path.join(__dirname, "..", "legal-templates");
-const OUT_DIR = path.join(__dirname, "..", "dist");
+const SRC_DIR = __dirname;
+const OUT_DIR = __dirname;
 if (!fs.existsSync(OUT_DIR)) fs.mkdirSync(OUT_DIR, { recursive: true });
 
 // Splits a line into TextRun[] handling **bold** spans.
@@ -138,7 +138,7 @@ function buildDocument(markdown) {
                 new Paragraph({
                   tabStops: [{ type: TabStopType.RIGHT, position: TabStopPosition.MAX }],
                   children: [
-                    new TextRun({ text: "FreClean · Léogâne, Ouest, Haiti — Template, pending legal review", size: 16, color: "888888" }),
+                    new TextRun({ text: "FreClean · Léogâne, Ouest, Haiti, template pending legal review", size: 16, color: "888888" }),
                     new TextRun({ text: "\t" }),
                     new TextRun({ children: [PageNumber.CURRENT], size: 16, color: "888888" }),
                   ],

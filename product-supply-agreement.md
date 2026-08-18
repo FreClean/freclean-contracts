@@ -1,8 +1,6 @@
 # Product Supply Agreement
 
-**Template — requires legal review before use.** For a business (retailer, distributor, or a FreClean Entrepreneur Program participant operating as a registered business) purchasing FreClean products on a recurring basis.
-
----
+**Template: requires legal review before use.** For a business (retailer, distributor, or a FreClean Entrepreneur Program participant operating as a registered business) purchasing FreClean products on a recurring basis.
 
 **This Product Supply Agreement** ("Agreement") is entered into as of ______________ ("Effective Date"), by and between:
 
@@ -16,20 +14,20 @@ This Agreement begins on the Effective Date and continues for **☐ 1 year ☐ 2
 
 ## 2. Products & Pricing
 
-Products covered by this Agreement, and their wholesale pricing, are set out in **Schedule A** — pricing reflects FreClean's current, verified wholesale rates (see `freclean-products` and `freclean-entrepreneurship/docs/05-pricing-guidance.md`); no rate is estimated or placeholder. Schedule A may be updated by mutual written agreement as FreClean's product catalog and pricing evolve.
+Products covered by this Agreement, and their wholesale pricing, are set out in **Schedule A**. Pricing reflects FreClean's current, verified wholesale rates (see `freclean-products` and `freclean-entrepreneurship/docs/05-pricing-guidance.md`); no rate is estimated or placeholder. Schedule A may be updated by mutual written agreement as FreClean's product catalog and pricing evolve.
 
 ## 3. Order & Delivery Schedule
 
 - Standing order quantity and frequency: ______________ (e.g. "50 units of Multi-Surface Cleaner, monthly").
 - Buyer may adjust standing order quantities with ______________ days' notice before the next scheduled delivery.
 - Delivery/pickup location: ______________________________.
-- Supplier will notify Buyer promptly if a scheduled delivery cannot be fulfilled at the ordered quantity — see FreClean's inventory guide for how shortages are communicated; no order is silently under-filled.
+- Supplier will notify Buyer promptly if a scheduled delivery cannot be fulfilled at the ordered quantity. See FreClean's inventory guide for how shortages are communicated; no order is silently under-filled.
 
 ## 4. Fees & Payment
 
 - Invoices issued **☐ per delivery ☐ monthly**, due within 15 days.
-- Payment method: ☐ cash ☐ card ☐ Celo stablecoin via FreClean's Web3 payment system (CeloHT).
-- A payment-compliance record for this Agreement may be kept in FreClean's on-chain agreement registry (`freclean-contracts`) — record-keeping only, not a change to either party's payment obligations.
+- Payment method: ☐ cash ☐ card ☐ USDm via FreClean's Web3 payment system (CeloHT).
+- A payment-compliance record for this Agreement may be kept in FreClean's on-chain agreement registry (`freclean-contracts`); this is record-keeping only and not a change to either party's payment obligations.
 
 ## 5. Product Quality & Returns
 
@@ -37,7 +35,7 @@ Products are supplied per their published specification (see each product's entr
 
 ## 6. Resale Terms
 
-*(Complete only if Buyer resells the product — e.g. a retail partner or Entrepreneur Program participant.)* Buyer may resell purchased products at Buyer's own pricing, subject to any suggested resale range published in FreClean's current pricing guidance. Buyer will not represent FreClean products as having a certification, ingredient, or safety property not confirmed in FreClean's published product data.
+*(Complete only if Buyer resells the product, e.g. a retail partner or Entrepreneur Program participant.)* Buyer may resell purchased products at Buyer's own pricing, subject to any suggested resale range published in FreClean's current pricing guidance. Buyer will not represent FreClean products as having a certification, ingredient, or safety property not confirmed in FreClean's published product data.
 
 ## 7. Insurance & Liability
 
@@ -55,9 +53,7 @@ Each party keeps the other's non-public business information (including pricing 
 ## 10. General
 
 - Entire agreement, amendments in writing, no assignment without consent (except to a successor in a merger/acquisition).
-- Governing law: ______________________________ *(not provided — to be finalized with counsel).*
-
----
+- Governing law: ______________________________ *(not provided; to be finalized with counsel).*
 
 **Signatures**
 
@@ -65,6 +61,4 @@ FreClean: _______________________  Date: __________
 
 Buyer: _______________________  Date: __________
 
----
-
-**Schedule A — Products & Wholesale Pricing:** *(to be completed once wholesale pricing is finalized — see `freclean-entrepreneurship/docs/05-pricing-guidance.md`)*
+**Schedule A: Products & Wholesale Pricing** *(to be completed once wholesale pricing is finalized; see `freclean-entrepreneurship/docs/05-pricing-guidance.md`)*

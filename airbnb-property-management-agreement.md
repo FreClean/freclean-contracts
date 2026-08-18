@@ -1,8 +1,6 @@
 # Airbnb / Property Management Cleaning Agreement
 
-**Template — requires legal review before use.**
-
----
+**Template: requires legal review before use.**
 
 **This Airbnb / Property Management Cleaning Agreement** ("Agreement") is entered into as of ______________ ("Effective Date"), by and between:
 
@@ -25,14 +23,14 @@ Turnover cleaning between guest stays, per FreClean's Airbnb Turnover checklist,
 
 ## 3. Scheduling
 
-Client (or Client's booking platform/calendar integration) provides checkout/check-in times with reasonable notice — minimum notice period: ______________. Service Provider confirms each turnover assignment and reports completion, consistent with FreClean's booking workflow.
+Client (or Client's booking platform/calendar integration) provides checkout/check-in times with reasonable notice; minimum notice period: ______________. Service Provider confirms each turnover assignment and reports completion, consistent with FreClean's booking workflow.
 
 ## 4. Fees & Payment
 
 - Per-turnover fee: ______________ (see Schedule A for a property-by-property rate if Client has multiple units).
-- Payment method: ☐ cash ☐ card ☐ Celo stablecoin via FreClean's Web3 payment system (CeloHT).
+- Payment method: ☐ cash ☐ card ☐ USDm via FreClean's Web3 payment system (CeloHT).
 - Invoicing frequency: ☐ per turnover ☐ weekly ☐ monthly.
-- As with FreClean's other multi-year agreements, a payment-compliance record for this Agreement may be kept in FreClean's on-chain agreement registry — a record-keeping measure only, not a change to either party's obligations.
+- As with FreClean's other multi-year agreements, a payment-compliance record for this Agreement may be kept in FreClean's on-chain agreement registry. This is a record-keeping measure only, not a change to either party's obligations.
 
 ## 5. Guest Items & Damage
 
@@ -44,7 +42,7 @@ Client provides Service Provider reliable access instructions (lockbox code, key
 
 ## 7. Insurance & Liability
 
-Each party's liability is limited to direct damages arising from this Agreement; neither party is liable for indirect or consequential damages, except for confidentiality breaches or willful misconduct. *(Insurance details: not provided as a default — confirm actual coverage before use.)*
+Each party's liability is limited to direct damages arising from this Agreement; neither party is liable for indirect or consequential damages, except for confidentiality breaches or willful misconduct. *(Insurance details: not provided as a default; confirm actual coverage before use.)*
 
 ## 8. Termination
 
@@ -58,9 +56,7 @@ Guest information and property access details shared by Client are used only to 
 ## 10. General
 
 - Entire agreement, amendments in writing, no assignment without consent (except to a successor in a merger/acquisition).
-- Governing law: ______________________________ *(not provided — to be finalized with counsel).*
-
----
+- Governing law: ______________________________ *(not provided; to be finalized with counsel).*
 
 **Signatures**
 
@@ -68,6 +64,4 @@ FreClean: _______________________  Date: __________
 
 Client: _______________________  Date: __________
 
----
-
-**Schedule A — Per-Property Rates:** *(to be completed)*
+**Schedule A: Per-Property Rates** *(to be completed)*
