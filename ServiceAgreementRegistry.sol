@@ -7,7 +7,7 @@ pragma solidity ^0.8.24;
 ///         office cleaning, and product supply contracts) on Celo.
 /// @dev    This contract deliberately does NOT hold funds, issue a token, or
 ///         take any automated action. It is a tamper-evident attestation
-///         registry only — see docs/JUSTIFICATION.md for why this is the
+///         registry only; see docs/JUSTIFICATION.md for why this is the
 ///         entire scope. Actual payments are made and verified through
 ///         freclean-payment exactly as for any other FreClean payment; this
 ///         contract just records the resulting compliance history so a
@@ -134,7 +134,7 @@ contract ServiceAgreementRegistry {
     ///         already did.
     function recordPaymentConfirmed(uint256 agreementId, uint64 timestamp) external onlyAuthorized {
         Agreement storage agreement = agreements[agreementId];
-        require(agreement.startDate != 0, "ServiceAgreementRegistry: agreement does not exist");
+        require(agreement.documentHash != bytes32(0), "ServiceAgreementRegistry: agreement does not exist");
         require(
             agreement.status == AgreementStatus.Active || agreement.status == AgreementStatus.PaymentOverdue,
             "ServiceAgreementRegistry: agreement is not active"
@@ -155,7 +155,7 @@ contract ServiceAgreementRegistry {
     ///         PaymentOverdue so the status is independently checkable.
     function recordPaymentMissed(uint256 agreementId, uint64 timestamp) external onlyAuthorized {
         Agreement storage agreement = agreements[agreementId];
-        require(agreement.startDate != 0, "ServiceAgreementRegistry: agreement does not exist");
+        require(agreement.documentHash != bytes32(0), "ServiceAgreementRegistry: agreement does not exist");
         require(agreement.status == AgreementStatus.Active, "ServiceAgreementRegistry: agreement is not active");
 
         agreement.paymentsMissed += 1;
@@ -180,7 +180,7 @@ contract ServiceAgreementRegistry {
     }
 
     function _requireExists(uint256 agreementId) internal view {
-        require(agreements[agreementId].startDate != 0, "ServiceAgreementRegistry: agreement does not exist");
+        require(agreements[agreementId].documentHash != bytes32(0), "ServiceAgreementRegistry: agreement does not exist");
     }
 
     function _setStatus(uint256 agreementId, AgreementStatus newStatus) internal {

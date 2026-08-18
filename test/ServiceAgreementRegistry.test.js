@@ -78,7 +78,7 @@ describe("ServiceAgreementRegistry", function () {
     );
   });
 
-  it("never exposes any fund-custody function — this is a registry only", async function () {
+  it("never exposes any fund-custody function; this is a registry only", async function () {
     const fragments = registry.interface.fragments.map((f) => f.name).filter(Boolean);
     const forbidden = ["deposit", "withdraw", "transfer", "receive", "fallback"];
     for (const name of forbidden) {
